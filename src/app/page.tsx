@@ -67,8 +67,8 @@ export default function Home() {
   };
 
   return (
-    <div className="relative flex items-center justify-center bg-emerald-600 h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] text-gray-300">
-      <CardContainer className="flex flex-col items-center justify-center w-full sm:w-[40rem] max-h-[80vh] bg-[#1E1E1E] rounded-lg shadow-xl overflow-hidden">
+    <div className="relative flex items-center justify-center bg-[#121212] h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] text-gray-300">
+      <CardContainer className="flex border border-white flex-col items-center justify-center w-full sm:w-[40rem] max-h-[80vh] bg-[#1E1E1E] rounded-lg shadow-xl overflow-hidden">
         <CardBody
           className={`relative overflow-y-auto w-full px-6 py-4 ${
             populationInfo ? "max-h-[80vh]" : "h-auto"
